@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Application Colors-->
+
+    <!-- <color name="colorPrimary">#3F51B5</color>
+     <color name="colorPrimaryDark">#303F9F</color>
+     <color name="colorAccent">#FF4081</color>-->
+
+    <!-- The app branding color for the app bar -->
+    <color name="colorPrimary">#F0514B</color>
+
+    <!-- Darker variant for the status bar and contextual app bars -->
+    <color name="colorPrimaryDark">#C0403C</color>
+
+    <!-- Accent color for UI controls like checkboxes and text fields -->
+    <color name="colorAccent">#F0514B</color>
+
+
+    <color name="second_slide_background">#39424E</color>
+    <color name="fourth_slide_background">#02CCBA</color>
+
+
+    <color name="login_background">#F1F1F7</color>
+    <color name="login_button_clr">#4CD7BC</color>
+    <color name="sign_up_backround_clr">#F9F9F9</color>
+
+
+    <!--INTRO ACTIVITY SLIDE GRADIENT COLORS-->
+    <color name="slide1_start_clr">#FFF7F6</color>
+    <color name="slide1_end_clr">#BCE5F5</color>
+
+    <!-- SLIDE 2-->
+    <color name="slide2_start_clr">#F09AA5</color>
+    <color name="slide2_end_clr">#20D7DF</color>
+
+
+    <color name="white">#FFF</color>
+    <color name="black">#000000</color>
+    <color name="teal">#02CCBA</color>
+
+    <!-- PURPLE COLOR GRADIENTS-->
+    <color name="purple_txt">#E58AFE</color>
+    <color name="purple_ring_start_color">#ebb5f9</color>
+    <color name="purple_ring_center_color">#f6d1ff</color>
+    <color name="purple_end_color">#f6e3fc</color>
+
+
+    <!-- ORANGE COLOR GRADIENTS-->
+    <color name="orange_txt">#FEC062</color>
+    <color name="orange_ring_start_color">#FFDFAC</color>
+    <color name="orange_ring_center_color">#ffe6c0</color>
+    <color name="orange_end_color">#fff2df</color>
+
+
+    <!-- SKY BLUE COLOR GRADIENTS-->
+    <color name="sky_blue_txt">#8CE2EA</color>
+    <color name="sky_blue_ring_start_color">#97f1f4</color>
+    <color name="sky_blue_ring_center_color">#bef1f2</color>
+    <color name="sky_blue_end_color">#e7f7f9</color>
+
+
+    <!--LIGHT GREEN COLOR GRADIENTS-->
+    <color name="light_green_txt">#3ef1c1</color>
+    <color name="light_gren_ring_start_color">#76eccc</color>
+    <color name="light_green_ring_center_color">#c1f2e6</color>
+    <color name="light_green_end_color">#DFFDF5</color>
+
+
+    <color name="sky_blue_ring_center_color_gradient">#e3f5f7</color>
+    <color name="sky_blue_end_color_gradient">#eaf4f5</color>
+
+
+    <!--   ENGLISH PRACTICE SCREEN SUBSECTION TEXT COLORS AND BACKGROUND COLOR-->
+    <color name="english_pracice_section_bg">#F4F4F4</color>
+    <color name="navy_eng_practice_blue_txt">#64b5f6</color>
+    <color name="pink_eng_practice_txt">#FF9597</color>
+    <color name="blue_eng_prctice_txt">#4ECDF7</color>
+
+
+    <!-- ANDROID GREEN #6AB344-->
+    <color name="green">#7ced9c</color>
+    <color name="red">#FF0000</color>
+
+
+    <color name="battle_background_clr">#F7F7F7</color>
+    <color name="battle_option_selected_clr">#e0e0e0</color>
+    <color name="battle_option_unselected_clr">#EAECF4</color>
+
+
+</resources>

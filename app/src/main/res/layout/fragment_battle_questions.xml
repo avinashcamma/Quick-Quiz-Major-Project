@@ -1,0 +1,97 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankit.quickquiz.BattleQuestionsFragment">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/tv_battle_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_weight="2"
+                android:maxLines="4"
+                android:text="Synonym Of 'Parsimony is?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_activity_battle_txt_size"/>
+
+            <Button
+                android:id="@+id/bt_battle_option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/battle_question_margin"
+                android:layout_weight="1"
+                android:text="Option 1"/>
+
+            <Button
+                android:id="@+id/bt_battle_option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/battle_question_margin"
+                android:layout_weight="1"
+                android:text="Option 2"/>
+
+            <Button
+                android:id="@+id/bt_battle_option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/battle_question_margin"
+                android:layout_weight="1"
+                android:text="Option 3"/>
+
+            <Button
+                android:id="@+id/bt_battle_option4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/battle_question_margin"
+                android:layout_weight="1"
+                android:text="Option 4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tv_battle_player_1_correct"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Correct: 4"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="TimeLeft: 2"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>

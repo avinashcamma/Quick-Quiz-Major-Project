@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dual_battle_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ankit.quickquiz.DualBattleResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cv_profile_image_battle_result"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity=""
+            android:src="@drawable/avinash_image"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="15dp"
+            android:solidColor="@color/black"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_name_battle_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NAME : Ankit Pratap"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_correct_battle_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Correct: 5 "
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/green"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_incorrect_battle_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Incorrect: 4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_skipped_battle_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Skipped: 1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/orange_txt"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

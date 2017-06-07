@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Drop Shadow Stack -->
+    <item>
+        <shape>
+            <corners android:radius="@dimen/circle_width"/>
+            <padding
+                android:bottom="@dimen/layer_list_padding"
+                android:left="@dimen/layer_list_padding"
+                android:right="@dimen/layer_list_padding"
+                android:top="@dimen/layer_list_padding"/>
+            <gradient
+                android:angle="45"
+                android:centerColor="@color/orange_ring_start_color"
+                android:endColor="@color/orange_ring_center_color"
+                android:startColor="@color/purple_txt"
+                android:type="linear"/>
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/white"/>
+
+            <corners android:radius="@dimen/circle_width"/>
+        </shape>
+    </item>
+
+</layer-list>

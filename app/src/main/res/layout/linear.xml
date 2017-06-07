@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TimeLeft"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
+
+
+    <ImageView
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:text="Bookmark"
+        app:srcCompat="@drawable/ic_vector_bookmark_empty"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
+
+</LinearLayout>

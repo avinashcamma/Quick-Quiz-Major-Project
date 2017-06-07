@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_vector_home"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_play"
+        android:icon="@drawable/ic_vector_play"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_statistics"
+        android:icon="@drawable/ic_vector_graph"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+</menu>

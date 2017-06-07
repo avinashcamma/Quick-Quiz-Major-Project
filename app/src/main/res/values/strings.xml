@@ -1,0 +1,38 @@
+<resources>
+
+    <!--Application String Resources-->
+    <string name="app_name">Quick Quiz</string>
+    <string name="app_name_desc">Descriptrion</string>
+    <string name="menu_search">Home</string>
+    <string name="menu_settings">Next</string>
+    <string name="menu_navigation">Previous</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hello_blank_fragment_play">Play Fragment</string>
+    <string name="hello_blank_fragment_stats">Statistics Fragment</string>
+    <string name="synonyms_antonynms">Synonyms and Antonynms</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="already_account_login">Already have account, Log In</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_email">Enter your email address</string>
+    <string name="hint_username">Enter your user name</string>
+
+
+    <string name="json_response_battle_response_key">jsonBattleResponse</string>
+    <string name="play_game">Play Game</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_answer">View Answer</string>
+    <string name="next_question">Next</string>
+    <string name="empty_fields">Do not leave fileds empty</string>
+    <string name="login_error">Email id or password is not correct</string>
+    <string name="no_more_questions_in_db">No more questions left</string>
+    <string name="game_over">Game Over</string>
+    <string name="hint_otp">OTP</string>
+    <string name="hint_confirm_pass">Confirm Password</string>
+    <string name="password_change_msg">We will send a one time password on the provided email id. In order to change password you have to confirm it.</string>
+
+
+</resources>

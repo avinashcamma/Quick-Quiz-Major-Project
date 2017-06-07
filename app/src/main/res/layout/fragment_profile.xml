@@ -1,0 +1,70 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankit.quickquiz.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity=""
+            android:src="@drawable/avinash_image"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="15dp"
+            android:solidColor="@color/black"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NAME : Avinash Camma"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Email: avinashcamma@gmail.com "
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rank : 2342"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Points:103"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
